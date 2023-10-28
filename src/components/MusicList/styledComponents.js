@@ -12,7 +12,7 @@ export const ArtistBg = styled.div`
   background-size: cover;
   height: 450px;
 `
-export const ArtistName = styled.p`
+export const ArtistName = styled.h1`
   margin-left: 20px;
   font-size: 42px;
   font-weight: bold;
