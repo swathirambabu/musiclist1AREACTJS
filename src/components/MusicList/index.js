@@ -133,7 +133,7 @@ class MusicLists extends Component {
         <MusicPlayListContainer>
           <MusicHeading>Songs PlayList</MusicHeading>
           <SearchInput
-            type="input"
+            type="search"
             placeholder="Search"
             value={searchInput}
             onChange={this.onChangeSearchInput}

@@ -34,7 +34,7 @@ const MusicItem = props => {
         <DeleteButton
           type="button"
           data-testid="delete"
-          onCliCk={onDeleteTrack}
+          onClick={onDeleteTrack}
         >
           <AiOutlineDelete size={25} />
         </DeleteButton>
