@@ -13,11 +13,11 @@ import {
 } from './styledComponents'
 
 const MusicItem = props => {
-  const {musicItemDetails, deleteItem} = props
+  const {musicItemDetails, onClickDeleteTrack} = props
   const {id, name, genre, duration, imageUrl} = musicItemDetails
 
   const onDeleteTrack = () => {
-    deleteItem(id)
+    onClickDeleteTrack(id)
   }
 
   return (

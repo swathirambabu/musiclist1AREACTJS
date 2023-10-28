@@ -125,10 +125,8 @@ class MusicLists extends Component {
     return (
       <BgContainer>
         <ArtistBg>
-          <ArtistName>
-            Ed Sheeran <br />
-            <ArtistInfo>Singer</ArtistInfo>
-          </ArtistName>
+          <ArtistName>Ed Sheeran </ArtistName>
+          <ArtistInfo>Singer</ArtistInfo>
         </ArtistBg>
         <MusicPlayListContainer>
           <MusicHeading>Songs PlayList</MusicHeading>

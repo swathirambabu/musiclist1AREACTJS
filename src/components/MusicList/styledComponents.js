@@ -13,6 +13,7 @@ export const ArtistBg = styled.div`
   height: 450px;
 `
 export const ArtistName = styled.p`
+  margin-left: 20px;
   font-size: 42px;
   font-weight: bold;
   font-family: roboto;
@@ -20,6 +21,8 @@ export const ArtistName = styled.p`
 `
 export const ArtistInfo = styled.p`
   font-size: 43px;
+  margin-left: 20px;
+
   font-weight: 400;
   font-family: roboto;
   color: white;
