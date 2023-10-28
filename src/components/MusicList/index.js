@@ -145,7 +145,7 @@ class MusicLists extends Component {
               <MusicItem
                 key={each.id}
                 musicItemDetails={each}
-                onClick={this.onClickDeleteTrack}
+                onClickDeleteTrack={this.onClickDeleteTrack}
               />
             ))}
           </MusicList>
